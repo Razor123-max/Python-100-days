@@ -1,1 +1,1 @@
-print(len(12345))
+print("Hello"[0])
