@@ -12,3 +12,6 @@ print(int(bmi))
 
 # Rounding off BMI values
 print(round(bmi))
+
+# Rounding off with 2 decimals
+print(round(bmi,2))
