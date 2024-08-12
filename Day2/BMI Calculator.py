@@ -6,3 +6,9 @@ weight = 84
 bmi = weight / (height ** 2)
 
 print(bmi)
+
+# Prints BMI in integer format
+print(int(bmi))
+
+# Rounding off BMI values
+print(round(bmi))
