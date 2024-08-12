@@ -15,6 +15,14 @@ print(6 / 2)
  # Division with int
 print(6 // 2)
 
+#Priority PEMDAS
+
+# ()
+# **
+# * OR /
+# + OR - 
+
+
  #exponential
 print(2 ** 3)
 
