@@ -6,5 +6,6 @@ tip = input("How much tip would you like to give?\n 10, 12 or 15?\n")
 tip_amount = (total_bill * tip + total_bill)
 
 split = input("How many people to split the bill?\n")
+split_amount = round(tip_amount / split, 2)
 
-print(f"Each person should pay:{total_bill}")
+print(f"Each person should pay:{split_amount}\n")
