@@ -8,7 +8,7 @@ if height >= 120:
     age = int(input("How old are you? "))
     if age > 18:
         print("\nYou have to pay 12$\n")
-    if 18<=age>=12:
+    elif 18<=age>=12:
         print("\nYou have to pay 7$\n")
 
     else:("\nYou have to pay 5$\n")
