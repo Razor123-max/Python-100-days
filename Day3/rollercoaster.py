@@ -26,7 +26,7 @@ if height >= 120:
         bill += 3
 
 
-    print(f"Your total bill is {bill}")
+    print(f"Your total bill is ${bill}")
 
 
 else:
