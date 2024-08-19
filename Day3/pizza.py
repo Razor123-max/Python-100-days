@@ -26,4 +26,4 @@ extra_cheese = input("\nDo you want extra cheese? Y or N:\n")
 if extra_cheese == "Y":
     bill += 1
 
-print(f"\n Thank you for your order! Your total bill is ${bill}")
+print(f"\n Thank you for your order! Your total bill is ${bill}.")
