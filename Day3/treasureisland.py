@@ -45,5 +45,7 @@ MM88MMM 8b,dPPYba,  ,adPPYba, ,adPPYYba, ,adPPYba, 88       88 8b,dPPYba,  ,adPP
 
 print("\nWelcome to Treasure Island!!\nYour mission is to find the treasure.")
 
-choice1 = input("\nYou are at a cross road. Where do you want to go?\ntype 'left' or 'right'.")
+choice1 = input("\nYou are at a cross road. Where do you want to go?\ntype 'left' or 'right'.").lower()
 
+if choice1 == "right":
+    print("\nFall into a hole.\nGame Over.")
