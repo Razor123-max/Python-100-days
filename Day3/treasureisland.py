@@ -1,5 +1,4 @@
 
-print("Hello, world!")
 print(''' 
       
 
@@ -47,5 +46,9 @@ print("\nWelcome to Treasure Island!!\nYour mission is to find the treasure.")
 
 choice1 = input("\nYou are at a cross road. Where do you want to go?\ntype 'left' or 'right'.").lower()
 
-if choice1 == "right":
+if choice1 == "left":
+    input('\nYou\'ve come to a lake. There is an island in the middle of the lake.' 
+          'Type "wait" to wait for a boat. Type "swim" to swim across.').lower()
+
+else:
     print("\nFall into a hole.\nGame Over.")
