@@ -8,6 +8,10 @@ if height >= 120:
 
     age = int(input("How old are you? "))
 
+    if age >= 45 and age <= 55:
+        bill = 0
+        print("\nYou can ride for free\n")
+
     if age <=12:
         bill = 5
         print("\nChil tickets are $5\n")
