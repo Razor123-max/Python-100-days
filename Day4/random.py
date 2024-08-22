@@ -9,5 +9,8 @@ import random
 #print(f"Random floating point number between 1 and 10: {random_float}")
 
 random_heads_or_tails = random.randint(0,1)
-print("Head")
-print("Tails")
+
+if random_heads_or_tails == 0:
+    print("Head")
+else:
+    print("Tails")
